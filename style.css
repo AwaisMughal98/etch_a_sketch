@@ -1,0 +1,74 @@
+/* simple reset code */
+* {
+    margin: 0%;
+    padding: 0%;
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    min-height: 100%;
+    overflow-x: hidden;
+    min-width: 100%;
+    background: rgb(249, 255, 182);
+}
+/* code for main-container */
+.main-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    min-height: 100vh;
+}
+/* code for  grid*/
+.grid {
+    height: 500px;
+    width: 500px;
+    background: whitesmoke;
+    border: 20px solid #fa8072;
+    border-radius: 12px;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+.grid-col {
+    display: flex;
+    flex-direction: row;
+}
+.grid-row {
+    display: flex;
+    flex-direction: column;
+    border: 0.001px solid black;
+}
+/* code for the buttons */
+.menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-width: 400px;
+    gap: 50px;
+}
+.head{
+    color: rgb(155, 0, 0);
+    font-size: 28px;
+    text-shadow: tomato 2px 2px 5px;
+}
+button {
+    background: rgb(91, 163, 165);
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+    padding: 5px 20px;
+    text-align: center;
+    border-radius: 8px;
+    cursor: pointer;
+}
+/* code for color pallet */
+.color-palet{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+.color-palet>input {
+    min-width: 100px;
+}
+/* code for select menu grid size */
+.grid-size >input{
+    min-width: 200px;
+}
