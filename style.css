@@ -34,7 +34,7 @@ body {
 .grid-row {
     display: flex;
     flex-direction: column;
-    border: 0.001px solid black;
+    border: 0.001px solid rgba(0, 0, 0, 0.39);
 }
 /* code for the buttons */
 .menu {
@@ -71,4 +71,7 @@ button {
 /* code for select menu grid size */
 .grid-size >input{
     min-width: 200px;
+}
+.grid-row:hover {
+    background: rgb(0, 0, 0, 0.3);
 }
